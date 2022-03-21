@@ -14,6 +14,7 @@
     "categories": [
         "Snippets"
     ],
+    "license": "SEE LICENSE IN LICENSE.md",
     "contributes": {
         "snippets": [
             {
