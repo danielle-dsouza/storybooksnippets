@@ -4,6 +4,10 @@
     "description": "Storybook snippets generator",
     "icon": "images/icon.png",
     "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/danielle-dsouza/storybooksnippets"
+      },
     "engines": {
         "vscode": "^1.65.0"
     },
