@@ -14,6 +14,7 @@
     "categories": [
         "Snippets"
     ],
+    "publisher": "DanielleDSouza",
     "license": "SEE LICENSE IN LICENSE.md",
     "contributes": {
         "snippets": [
