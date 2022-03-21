@@ -1,8 +1,8 @@
 {
     "Component Story Template": {
-        "prefix": "!cstory",
+        "prefix": "!story",
         "body": [
-            "// Replace MyComponent with the name of your component \n// Replace pathNameTo with path to your component \n\nimport React from 'react';\nimport {Meta, StoryFn} from '@storybook/react';\n\nimport MyComponent, {Props} from './MyComponent';\n\n export default {\n\ttitle: 'pathNameTo/MyComponent',\n \tcomponent: MyComponent,\n} as Meta;\n\nexport const Basic: StoryFn<Props> = (args) => <MyComponent {...args} />;\n\nBasic.args = {\n\texampleBool: true,\n\texampleSelect: 'option1',\n};\n\nBasic.argTypes = {\n\texampleSelect: {\n\t\tcontrol: {\n\t\t\ttype: 'select',\n\t\t\toptions: ['option1', 'option2'],\n\t\t}\n\t},\n};",
+            "// Replace MyComponent with the name of your component\n// Replace pathNameTo with path to your component\n\nimport React from 'react';\nimport {Meta, StoryFn} from '@storybook/react';\n\nimport MyComponent, {Props} from './MyComponent';\n\nexport default {\n\ttitle: 'pathNameTo/MyComponent',\n\tcomponent: MyComponent,\n} as Meta;\n\nexport const Basic: StoryFn<Props> = (args) => <MyComponent {...args} />;\n\nBasic.args = {\n\texampleBool: true,\n\texampleSelect: 'option1',\n};\n\nBasic.argTypes = {\n\texampleSelect: {\n\t\tcontrol: {\n\t\t\ttype: 'select',\n\t\t\toptions: ['option1', 'option2'],\n\t\t},\n\t},\n};\n",
         ],
         "description": "Creates a story with one template"
     }

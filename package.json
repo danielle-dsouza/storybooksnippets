@@ -1,7 +1,8 @@
 {
     "name": "storybooksnippets",
-    "displayName": "storybooksnippets",
+    "displayName": "Storybook Snippets",
     "description": "Storybook snippets generator",
+    "icon": "images/icon.png",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.65.0"
